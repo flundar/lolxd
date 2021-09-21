@@ -1,3 +1,6 @@
-NOCLIP = KeyCode.Q
-CHASER =  KeyCode.F8
-NIGHT =  KeyCode.F9
+                                                                       #############################
+                                                                      ## KEYS NEED TO BE LOWERCASE ##
+                                                                       #############################
+NOCLIP = q
+CHASER = f8
+NIGHT= f7
