@@ -1,38 +1,38 @@
 [
     {
       "id": "1",
-      "oyun": "valorant"
+      "uygulama": "youtube"
     },  
     {
       "id": "2",
-      "oyun": "league of legends"
+      "uygulama": "facebook"
     },  
     {
       "id": "3",
-      "oyun": "venge"
+      "uygulama": "instagram"
     },  
     {
       "id": "4",
-      "oyun": "csgo"
+      "uygulama": "tiktok"
     },  
     {
       "id": "5",
-      "oyun": "Counter Strike"
+      "uygulama": "vk.com"
     },  
     {
       "id": "6",
-      "oyun": "oyun"
+      "uygulama": "whatsapp"
     },  
     {
       "id": "7",
-      "oyun": "oyunlar"
+      "uygulama": "discord"
     },  
     {
       "id": "8",
-      "oyun": "game"
+      "uygulama": "steam"
     },  
     {
       "id": "9",
-      "oyun": "games"
+      "uygulama": "spotify"
     }
   ]
