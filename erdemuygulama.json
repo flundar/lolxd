@@ -34,5 +34,17 @@
     {
       "id": "9",
       "uygulama": "spotify"
+    },
+    {
+      "id": "10",
+      "uygulama": "jitter"
+    },
+    {
+      "id": "11",
+      "uygulama": "twitch"
+    },
+    {
+      "id": "12",
+      "uygulama": "whatsapp"
     }
   ]
