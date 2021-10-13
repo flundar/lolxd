@@ -54,7 +54,7 @@
     {
       "id": "14",
       "uygulama": "soundcloud"
-    }
+    },
     {
       "id": "15",
       "uygulama": "netflix"
@@ -62,5 +62,9 @@
     {
       "id": "16",
       "uygulama": "izlesene"
+    },
+    {
+      "id": "17",
+      "uygulama": "dvadi"
     }
   ]
