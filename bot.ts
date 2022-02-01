@@ -121,7 +121,7 @@ slash.handle("aktivite", (d) => {
 
 slash.handle("davet", (d) => {
   return d.reply(
-    `• [Tıklayarak davet edebilirsin.](<https://discord.com/api/oauth2/authorize?client_id=825427254942236763&permissions=1&scope=applications.commands%20bot>)\n`
+    `• [Tıklayarak davet edebilirsin.](<https://discord.com/api/oauth2/authorize?client_id=825427254942236763&permissions=1&scope=applications.commands%20bot>)\n`,
     { ephemeral: true },
   );
 });
