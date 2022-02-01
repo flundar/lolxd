@@ -28,10 +28,10 @@ const ACTIVITIES: {
     id: "832012774040141894",
     name: "Chess in the Park",
   },
-  watchTogether: {
-    id: "880218394199220334",
-    name: "Watch Together",
-  },
+//  watchTogether: {
+//    id: "880218394199220334",
+//    name: "Watch Together",
+//  },
   doodleCrew: {
     id: "878067389634314250",
     name: "Doodle Crew",
