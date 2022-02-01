@@ -16,10 +16,10 @@ const ACTIVITIES: {
     id: "773336526917861400",
     name: "Betrayal.io",
   },
-  youtube: {
-    id: "755600276941176913",
-    name: "YouTube Together",
-  },
+  //youtube: {
+   // id: "755600276941176913",
+   // name: "YouTube Together",
+  //},
   fishing: {
     id: "814288819477020702",
     name: "Fishington.io",
@@ -110,7 +110,7 @@ slash.handle("aktivite", (d) => {
     })
     .then((inv) => {
       return d.reply(
-        `[${activity.name} Oyununa ${channel.name} kanalında girmek için tıklayınız.](<https://discord.gg/${inv.code}>)`
+        `[${activity.name} oyununa ${channel.name} kanalında girmek için tıklayınız.](<https://discord.gg/${inv.code}>)`
       );
     })
     .catch((e) => {
