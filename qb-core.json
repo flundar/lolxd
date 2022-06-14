@@ -1,0 +1,69 @@
+{
+    "DefaultSpawn": {
+        "x": -1035.7099609375,
+        "y": -2731.8701171875,
+        "z": 12.85999965667724,
+        "w": 0.0
+    },
+    "MaxPlayers": 40,
+    "Notify": {
+        "VariantDefinitions": {
+            "primary": {
+                "classes": "primary",
+                "icon": "info"
+            },
+            "error": {
+                "classes": "error",
+                "icon": "dangerous"
+            },
+            "success": {
+                "classes": "success",
+                "icon": "done"
+            },
+            "ambulance": {
+                "classes": "ambulance",
+                "icon": "fas fa-ambulance"
+            },
+            "police": {
+                "classes": "police",
+                "icon": "local_police"
+            }
+        },
+        "NotificationStyling": {
+            "position": "right",
+            "progress": true,
+            "group": false
+        }
+    },
+    "StatusInterval": 5000,
+    "Player": {
+        "HungerRate": 4.2,
+        "ThirstRate": 3.8,
+        "MaxInvSlots": 41,
+        "Bloodtypes": ["A+", "A-", "B+", "B-", "AB+", "AB-", "O+", "O-"],
+        "MaxWeight": 120000
+    },
+    "Server": {
+        "Uptime": 0,
+        "Closed": false,
+        "Whitelist": false,
+        "WhitelistPermission": "admin",
+        "Permissions": ["god", "admin", "mod"],
+        "ClosedReason": "Server Closed",
+        "UseConnectQueue": true,
+        "CheckDuplicateLicense": true,
+        "PVP": true,
+        "Discord": ""
+    },
+    "UpdateInterval": 5,
+    "Money": {
+        "PayCheckSociety": false,
+        "PayCheckTimeOut": 10,
+        "MoneyTypes": {
+            "cash": 500,
+            "bank": 5000,
+            "crypto": 0
+        },
+        "DontAllowMinus": ["cash", "crypto"]
+    }
+}
