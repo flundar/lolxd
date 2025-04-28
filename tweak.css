@@ -149,33 +149,3 @@ span[class*="timestampInline_"] {
 .separator_f84418 {
    display: none;
 }
-
-.visual-refresh {
-    --custom-channel-textarea-text-area-height: 49px;
-    .form_f75fb0 {
-        padding-left: 0px;
-        padding-right: 0px;
-        display: flex;
-        flex-direction: column;
-    }
-    .channelTextArea_f75fb0 {
-        border-radius: 0%;
-        height: 54.5px;
-        margin-bottom: 0px;
-    }
-    .base_b88801 {
-        position: static;
-        order: -1;
-    }
-}
-.visual-refresh div[class^="sidebar_"] section[class^="panels_"] {
-    width: calc(var(--custom-guild-sidebar-width) - var(--custom-guild-list-width) + 1px);
-    left: var(--custom-guild-list-width);
-    bottom: 0px;
-    border-radius: 0px;
-    border: none;
-}
-
-.visual-refresh nav[class*=guilds_] {
-  margin-bottom: unset;
-}
