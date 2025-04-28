@@ -1,0 +1,181 @@
+@import url("https://nspc911.github.io/themes/vencord/BlurryBackdrop.theme.css");
+@import url("https://scattagain.github.io/VencordStuff/css/GuildbarRevert.css");
+
+:root {
+  /* The blur radius, can be *\
+  \*   any types of length   */
+  --blrbg-blur-by: 2px;
+  /* how dim you want the bg *\
+  \*   aside from the blur   */
+  --blrbg-dimmness: 25;
+   --guildbar-avatar-size: 48px;
+  --blob-scale: 48;
+
+  --guildbar-folder-size: var(--guildbar-avatar-size);
+    --folder-blob-scale: var(--blob-scale);
+}
+
+.unread__2ea32 {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  left: auto;
+  right: 4px;
+  top: 16px;
+}
+.modeSelected__2ea32 .link__2ea32 {
+  background-color: var(--brand-700)!important;
+}
+.link__2ea32 {
+  padding-left: 16px;
+  border-radius: 0px!important;
+
+  &::before {
+    width: 1px;
+    left: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+
+  }
+&:hover {
+  background-color: var(--brand-800)!important;
+}
+  .icon__2ea32 {
+    scale: 0.8;
+  }
+
+  .linkTop__2ea32 {
+    gap: 4px;
+  }
+}
+
+.wrapper__2ea32 {
+  margin: 0px;
+}
+
+.name__2ea32,
+.overflow__82b15 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.2857142857142858;
+}
+
+.wrapper__29444 {
+  padding: var(--space-xxs) var(--space-xs);
+  padding-left: 4px;
+  box-sizing: content-box;
+
+  .mainContent__29444 {
+    flex-direction: row-reverse !important;
+    flex: none !important;
+    gap: 8px;
+  }
+
+  .icon__29444 {
+    scale: 1.25;
+  }
+}
+
+.spine__5b40b {
+  display: none !important;
+}
+
+.spineBorder__5b40b {
+  left: 10px;
+  width: 1px;
+  background: rgba(255, 255, 255, 0.3) !important;
+  height: 100%;
+}
+
+.typeThread__2ea32 {
+  margin-left: 10px !important;
+  .link__2ea32 {
+    padding-left: 20px!important;
+  }
+}
+
+/* thingamabob-er */
+.title_c38106 {
+  display: none;
+}
+
+.title_f75fb0 {
+  padding: 0px !important;
+  /* scale: 0.9; */
+  padding-left: 170px !important;
+  position: fixed;
+  left: -100px;
+  top: 0px;
+  background: transparent !important;
+  height: var(--custom-app-top-bar-height) !important;
+  min-height: 0px;
+  border: none !important;
+  width: calc(100vw);
+}
+
+.followButton_f75fb0,
+.topicClickTarget__6ec1a {
+  -webkit-app-region: no-drag !important;
+}
+
+.base_c48ade:has(.bar_c38106[data-windows="true"]) .title_f75fb0 {
+  width: calc(100vw - 240px)!important;
+}
+
+.children__9293f::after {
+  background: linear-gradient(to right, transparent 0, var(--bg-base-tertiary) 100%)!important;
+}
+.topic__6ec1a {
+  flex: none;
+} 
+
+span[class*="timestampInline_"] time::before {
+  content: attr(aria-label);
+  font-size: 12px;
+}
+
+span[class*="timestampInline_"] {
+  font-size: 0px !important;
+}
+
+[class*='membersGroup']:has([role=button]),
+[class*='member'] [class*='container']:has([class*='badges']) {
+  display: none;
+}
+
+/* REMOVE QUICK REACT BAR */
+.button_f7ecac.hoverBarButton_f84418:nth-of-type(1),
+.button_f7ecac.hoverBarButton_f84418:nth-of-type(2),
+.button_f7ecac.hoverBarButton_f84418:nth-of-type(3),
+.separator_f84418 {
+   display: none;
+}
+
+.visual-refresh {
+    --custom-channel-textarea-text-area-height: 49px;
+    .form_f75fb0 {
+        padding-left: 0px;
+        padding-right: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    .channelTextArea_f75fb0 {
+        border-radius: 0%;
+        height: 54.5px;
+        margin-bottom: 0px;
+    }
+    .base_b88801 {
+        position: static;
+        order: -1;
+    }
+}
+.visual-refresh div[class^="sidebar_"] section[class^="panels_"] {
+    width: calc(var(--custom-guild-sidebar-width) - var(--custom-guild-list-width) + 1px);
+    left: var(--custom-guild-list-width);
+    bottom: 0px;
+    border-radius: 0px;
+    border: none;
+}
+
+.visual-refresh nav[class*=guilds_] {
+  margin-bottom: unset;
+}
